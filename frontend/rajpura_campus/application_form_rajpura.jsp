@@ -137,7 +137,7 @@ p
             <option value="Congo">Congo</option>
             <option value="Cook Islands">Cook Islands</option>
             <option value="Costa Rica">Costa Rica</option>
-            <option value="Côte d'Ivoire">Côte d'Ivoire</option>
+            <option value="CÃ´te d'Ivoire">CÃ´te d'Ivoire</option>
             <option value="Croatia (Hrvatska">Croatia (Hrvatska</option>
             <option value="Cuba">Cuba</option>
             <option value="Cyprus">Cyprus</option>
@@ -265,7 +265,7 @@ p
             <option value="Rwanda">Rwanda</option>
             <option value="Samoa">Samoa</option>
             <option value="San Marino">San Marino</option>
-            <option value="São Tomé and Príncipe">São Tomé and Príncipe</option>
+            <option value="SÃ£o TomÃ© and PrÃ­ncipe">SÃ£o TomÃ© and PrÃ­ncipe</option>
             <option value="Saudi Arabia">Saudi Arabia</option>
             <option value="Senegal">Senegal</option>
             <option value="Serbia and Montenegro">Serbia and Montenegro</option>

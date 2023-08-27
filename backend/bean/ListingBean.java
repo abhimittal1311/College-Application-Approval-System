@@ -1,5 +1,5 @@
 package ProjectPackage;
-public class ListingBeanStudent
+public class ListingBean
 {
     String img;
     String fname;
@@ -10,6 +10,8 @@ public class ListingBeanStudent
    //  String uname;
   String country;
   String date;
+
+    
   String number;
   String marks_12;
   String marks_10;
@@ -19,7 +21,13 @@ public class ListingBeanStudent
   String mothername;
   String school;
   String ug_marks;
-  ListingBeanStudent(String number,String img,String fname,String lname,String email,String dob,String address,String country,String contact,String course,String father,String mother,String marks12,String marks10,String gender,String school,String ug)
+  ListingBean(String fname,String lname,String course)
+  {
+      this.fname=fname;
+      this.lname=lname;
+      this.course=course;
+  }
+  ListingBean(String number,String img,String fname,String lname,String email,String dob,String address,String country,String contact,String course,String father,String mother,String marks12,String marks10,String gender,String school,String ug)
   {
       this.number=number;
       this.img=img;
@@ -39,7 +47,6 @@ public class ListingBeanStudent
       this.marks_10=marks10;
       this.ug_marks=ug;
   }
-
     public String getNumber() {
         return number;
     }
@@ -47,7 +54,6 @@ public class ListingBeanStudent
     public void setNumber(String number) {
         this.number = number;
     }
-
     public String getImg() {
         return img;
     }

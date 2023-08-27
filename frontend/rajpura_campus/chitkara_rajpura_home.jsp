@@ -1,16 +1,20 @@
-
 <html>
 <head>
-<title>Chitkara University, Himachal Pradesh</title>
+<title>Chitkara University, Punjab</title>
 <link rel="icon" href="chitkarasvglogo.png">
 <style>
-h3,h5
+    #particles-js canvas {
+                position : fixed;
+                width: 100%;
+                height: 100%;
+                z-index: -999;
+            }
+    h3,h5
 {
   font-family: "Open Sans", sans-serif;
 }
-.login
+    .login
 {
-    opacity: 1.0;
     height: 600px;
     width: 450px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 1.0);
@@ -25,6 +29,7 @@ form input[type="text"],form input[type="password"]{
 	border:5;
 	transition: all 0.1s ease-in-out;
 }
+
 .button {
     border-radius: 5px;
     background-color: #cc0000;
@@ -42,18 +47,12 @@ form input[type="text"],form input[type="password"]{
 {
     opacity: 0.6;
 }
-#particles-js canvas {
-                position : fixed;
-                width: 100%;
-                height: 100%;
-                z-index: -999;
-            }
 </style>
 </head>
 <body>
     <div id="particles-js"></div>
     <button type="button" onclick="goBack()" class="button">Back</button>
-<center>    <a href="https://www.chitkarauniversity.edu.in/" title="Chitkara University, Himachal Pradesh"><img src="ChitkaraUniversityBaddiLogo.png"></a></center>
+<center>    <a href="https://www.chitkarauniversity.edu.in/" title="Chitkara University, Punjab"><img src="ChitkaraUniversityPunjabLogo.png" height="180px" width="180px"></a></center>
 <div style="width: 450px; float:left; height:580px; margin:100px" class="login">
 <center>
     <br>
@@ -63,7 +62,7 @@ form input[type="text"],form input[type="password"]{
 <h3>TEACHER LOG IN</h3>
 <br>
 
-<form method="post" action="LoginServletTeacher">
+<form method="post" action="LoginServletTeacherR">
 <input name="username" type="text" placeholder="Username" required>
 <br>
 <br>
@@ -85,8 +84,8 @@ form input[type="text"],form input[type="password"]{
 <h3>STUDENT LOG IN</h3>
 <br>
 
-    <form method="post" action="LoginServlet">
-    <input name="uname" type="text" placeholder="Username" required>
+    <form method="post" action="LoginServletR">
+    <input name="username" type="text" placeholder="Username" required>
 <br>
 <br>
 <br>
@@ -95,10 +94,10 @@ form input[type="text"],form input[type="password"]{
 <br>
 <br>
 <input name="submit" type="submit" value="Log in" class="button">
-    </form>
-<h5><a href="application_form_baddi.jsp">Click Here</a> to fill an application.</h5>
+</form>
+    <h5><a href="application_form_rajpura.jsp">Click Here</a> to fill an application.</h5>
+</center>
     </div>
-
 <script>
 function goBack()
 {
